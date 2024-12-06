@@ -43,4 +43,4 @@ require __DIR__ . '/auth.php';
 
 // Route::delete('/posts/{post}', [PostController::class, 'destroy'])->middleware(['auth', 'verified'])->name('posts.destroy');
 
-// Route::resource('posts', PostController::class)->middleware(['auth', 'verified']);
+Route::resource('posts', PostController::class)->middleware(['auth', 'verified']);
