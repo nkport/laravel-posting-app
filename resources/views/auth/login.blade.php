@@ -1,4 +1,10 @@
 <x-guest-layout>
+
+<div class="mb-3">
+email: <strong style="color: hotpink;">test@example.com</strong ><br>
+pass: <strong style="color: hotpink;">password</strong >
+</div>
+
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
